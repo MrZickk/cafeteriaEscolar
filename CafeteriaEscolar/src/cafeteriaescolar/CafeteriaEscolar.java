@@ -5,6 +5,8 @@
  */
 package cafeteriaescolar;
 
+import cafeteriaGUI.AdministrarProductos;
+
 /**
  *
  * @author Paco Miranda
@@ -16,6 +18,9 @@ public class CafeteriaEscolar {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        AdministrarProductos aP=new AdministrarProductos();
+        aP.setVisible(true);
+        
     }
     
 }
