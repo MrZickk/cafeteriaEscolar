@@ -6,6 +6,7 @@
 package cafeteriaescolar;
 
 import cafeteriaGUI.AdministrarProductos;
+import cafeteriaGUI.PantallaPrincipal;
 
 /**
  *
@@ -18,8 +19,8 @@ public class CafeteriaEscolar {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        AdministrarProductos aP=new AdministrarProductos();
-        aP.setVisible(true);
+        PantallaPrincipal panP=new PantallaPrincipal();
+        panP.setVisible(true);
         
     }
     

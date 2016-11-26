@@ -45,7 +45,7 @@ public class RegistrarProductoDefectuoso extends javax.swing.JFrame {
 
         jLabel2.setText("Producto:");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "hot-dogs", "chocomilk", "pastel", "Item 4" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
@@ -54,7 +54,7 @@ public class RegistrarProductoDefectuoso extends javax.swing.JFrame {
 
         jLabel3.setText("Tipo de defecto:");
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "caducado", "poco vendido", "0 existencias", "Item 4" }));
 
         jLabel4.setText("Descripción:");
 
@@ -135,6 +135,9 @@ public class RegistrarProductoDefectuoso extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        AdministrarProductos admPro=new AdministrarProductos(); 
+        admPro.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
